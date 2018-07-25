@@ -9,9 +9,9 @@ Cree un proyecto nuevo symfony version 3
 con elcomando:
 
 "php symfony new proyectoSymfony 3.4"
-
+####---------------------------------------------------
 Luego,
---- Siguiendo esta pagina ----
+###--- Siguiendo esta pagina ----
 
 https://symfony.com/doc/3.4/page_creation.html
 
