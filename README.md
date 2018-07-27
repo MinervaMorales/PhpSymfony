@@ -20,3 +20,13 @@ se creo un nuevo controlador Lucky number
 tutorial oficial videos en ingles de symfony:
 
 https://knpuniversity.com/screencast/symfony3
+
+
+## viernes 21/julio/2018
+Creacion de una vista vacia donde se puede probar con esta ruta
+
+http://localhost:8000/base
+
+### numeros aleatorios
+
+http://localhost:8000/Lucky/number  

@@ -9,8 +9,12 @@
 namespace AppBundle\Controller;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\HttpFoundation\Request;
 
-class LuckyController
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+
+//extiende de la clase controller para el metodo render
+class LuckyController extends Controller
 {
     /**
      * @return Response
@@ -21,4 +25,15 @@ class LuckyController
             $number = random_int(0,100);
             return new Response('<html><body>Lucky number :'.$number. '</body>');
         }
+
+    /**
+     * @Route("/base")
+     */
+    public function verAction()
+    {
+        // replace this example code with whatever you need
+        return $this->render('blog.html.twig', [
+            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+        ]);
+    }
 }
