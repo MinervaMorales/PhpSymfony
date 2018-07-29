@@ -30,3 +30,8 @@ http://localhost:8000/base
 ### numeros aleatorios
 
 http://localhost:8000/Lucky/number  
+
+## Sabado 28/jul/2018
+Visualizacion del numero por parametro a la vista number.html.twig mediante esta ruta:
+
+http://localhost:8000/number

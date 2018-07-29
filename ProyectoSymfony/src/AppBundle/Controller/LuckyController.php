@@ -27,6 +27,18 @@ class LuckyController extends Controller
         }
 
     /**
+     * @return Response
+     * @Route("Lucky/number/ver")
+     */
+    public function verNumberAction()
+    {
+        // replace this example code with whatever you need
+        return $this->render('Lucky/number.html.twig', [
+            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+        ]);
+    }
+
+    /**
      * @Route("/base")
      */
     public function verAction()
@@ -35,5 +47,16 @@ class LuckyController extends Controller
         return $this->render('blog.html.twig', [
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
         ]);
+    }
+    /**
+     * @Route("/number")
+     */
+    public function numberVerAction()
+    {
+        $number = random_int(0, 100);
+
+        return $this->render('Lucky/number.html.twig', array(
+            'number' => $number,
+        ));
     }
 }
