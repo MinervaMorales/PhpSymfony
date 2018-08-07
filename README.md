@@ -35,3 +35,18 @@ http://localhost:8000/Lucky/number
 Visualizacion del numero por parametro a la vista number.html.twig mediante esta ruta:
 
 http://localhost:8000/number
+
+
+## martes 7 de agosto
+
+Creacion de entidades y uso de doctrine, comprobando datos desde el servivor de apache xampp
+
+Codigo fuente de ejemplo:
+
+https://github.com/codereviewvideos/csv-import-example/tree/master/src/AppBundle
+
+Fuente de documentacion:
+
+https://codereviewvideos.com/course/doctrine-databasics/video/creating-your-database-and-first-entity-with-doctrine
+
+
