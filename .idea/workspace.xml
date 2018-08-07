@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a221f0a-de3f-4a9f-b4d4-c9692974daee" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ProyectoSymfony/src/AppBundle/Data/MOCK_DATA.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5a221f0a-de3f-4a9f-b4d4-c9692974daee" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +27,14 @@
           <entry key="csv" value="1" />
           <entry key="dist" value="1" />
           <entry key="json" value="1" />
+          <entry key="php" value="3" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
+          <entry key="PHP" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="YAML" value="2" />
         </counts>
@@ -54,6 +52,11 @@
       <usages-collector id="statistics.php.composer.actions">
         <counts>
           <entry key="install_from_ComposerEditorNotificationPanel" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -78,11 +81,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProyectoSymfony/src/AppBundle/Data/MOCK_DATA.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
               <caret line="987" column="18" selection-start-line="987" selection-start-column="18" selection-end-line="987" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProyectoSymfony/src/AppBundle/Entity/Competitor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProyectoSymfony/src/AppBundle/Entity/Athlete.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -108,6 +129,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ProyectoSymfony/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/ProyectoSymfony/src/AppBundle/Data/MOCK_DATA.csv" />
+        <option value="$PROJECT_DIR$/ProyectoSymfony/src/AppBundle/Entity/Athlete.php" />
+        <option value="$PROJECT_DIR$/ProyectoSymfony/src/AppBundle/Entity/Competitor.php" />
       </list>
     </option>
   </component>
@@ -199,6 +222,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PhpSymfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PhpSymfony" type="462c0819:PsiDirectoryNode" />
+              <item name="ProyectoSymfony" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -244,18 +275,18 @@
       <workItem from="1533169778613" duration="540000" />
       <workItem from="1533300073028" duration="439000" />
       <workItem from="1533300656954" duration="778000" />
-      <workItem from="1533670368727" duration="5301000" />
+      <workItem from="1533670368727" duration="5716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17981000" />
+    <option name="totallyTimeSpent" value="18396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.422292" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.422292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -267,7 +298,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.3877551" visible="true" weight="0.49417636" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.3877551" visible="true" weight="0.49417636" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32998326" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.6122449" side_tool="true" weight="0.32328308" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -384,6 +415,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="987" column="18" selection-start-line="987" selection-start-column="18" selection-end-line="987" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProyectoSymfony/src/AppBundle/Entity/Competitor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProyectoSymfony/src/AppBundle/Entity/Athlete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>
