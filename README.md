@@ -49,4 +49,14 @@ Fuente de documentacion:
 
 https://codereviewvideos.com/course/doctrine-databasics/video/creating-your-database-and-first-entity-with-doctrine
 
+Crear la bd :
+
+>php bin/console doctrine:database:create
+
+Luego de tener las entidades se utiliza este comando para actualizar la bd
+
+>php bin/console doctrine:schema:update --
+force
+
+
 
